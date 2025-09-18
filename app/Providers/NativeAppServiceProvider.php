@@ -13,17 +13,18 @@ class NativeAppServiceProvider
 {
     public function boot(): void
     {
-        // Window::open('test')
-        // ->route('joke')
-        // ->showDevTools(false)
-        // ->height(1200)
-        // ->width(1200);
+         Window::open('test')
+         ->route('pictures.index')
+         ->showDevTools(false)
+         ->height(1200)
+         ->width(1200);
 
         MenuBar::create()
-        ->showDockIcon()
+        ->showDockIcon(false)
+        ->tooltip('Heloooo')
         ->label('Test')
-        ->route('register')
-        ->height(500)
-        ->width(500);
+        ->route('joke')
+        ->height(1500)
+        ->width(1500);
     }
 }
