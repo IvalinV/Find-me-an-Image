@@ -10,11 +10,14 @@
         "@vitejs/plugin-vue": "^4.0.0",
         "autoprefixer": "^10.4.12",
         "axios": "^1.1.2",
-        "laravel-vite-plugin": "^0.7.2",
+        "laravel-vite-plugin": "^2.0.1",
         "lodash": "^4.17.19",
         "postcss": "^8.4.18",
         "tailwindcss": "^3.2.1",
-        "vite": "^4.0.0",
+        "vite": "^7.1.6",
         "vue": "^3.2.41"
+    },
+    "dependencies": {
+        "@vueuse/core": "^13.9.0"
     }
 }
